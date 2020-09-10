@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="View your open requests">4b81bf9f2f8710108abf532a2799b642</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"f03c74ee0aa943eca98019cd71488f2e","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"f03c74ee0aa943eca98019cd71488f2e"}],"goals":[{"name":"primary","trigger_id":"f03c74ee0aa943eca98019cd71488f2e","nodes":[{"type":"StartGoal","goal_id":"d01fbe5b795d47a992635ea913338a3f","greeting_msg":{"type":"String","mode":"string","value":""},"id":"790421fb6a78465fac9fe7d1fa48d11f","name":"Start"},{"type":"TerminateGoal","goal_id":"d01fbe5b795d47a992635ea913338a3f","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"774f71699e3142acad15aeca42a21aca","name":"End"}],"edges":[{"type":"Edge","source_node_id":"790421fb6a78465fac9fe7d1fa48d11f","target_node_id":"774f71699e3142acad15aeca42a21aca","id":"c1e556d1805446599abe5f50a952add5"}],"id":"d01fbe5b795d47a992635ea913338a3f"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"6ead8e780f603200cd674f8ce1050ed1","domain":"global","id":"c681f35f2f8710108abf532a2799b65c","name":"View your open requests","key_phrases":["View your open requests","open","ABACUS Request","need something"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"design_category":"16a0779f2f8710108abf532a2799b663","library":false}</design_definition>
+        <design_topic_id>c681f35f2f8710108abf532a2799b65c</design_topic_id>
+        <name>View your open requests</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-10 06:13:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4f81bf9f2f8710108abf532a2799b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_design_topic_4f81bf9f2f8710108abf532a2799b645</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-10 06:13:33</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
