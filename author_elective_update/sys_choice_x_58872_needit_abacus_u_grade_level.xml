@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_grade_level" table="x_58872_needit_abacus" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_grade_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grade School</label>
+            <language>en</language>
+            <name>x_58872_needit_abacus</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-09 21:57:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8800425f2f4310108abf532a2799b6b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-09 21:57:28</sys_updated_on>
+            <value>grade</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_grade_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Middle School</label>
+            <language>en</language>
+            <name>x_58872_needit_abacus</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-09 21:57:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c800425f2f4310108abf532a2799b6b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-09 21:57:28</sys_updated_on>
+            <value>middle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_grade_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High School</label>
+            <language>en</language>
+            <name>x_58872_needit_abacus</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-09 21:57:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8400425f2f4310108abf532a2799b6b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-09 21:57:28</sys_updated_on>
+            <value>high</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_grade_level</element>
+            <name>x_58872_needit_abacus</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-09 21:57:28</sys_created_on>
+            <sys_id>c000425f2f4310108abf532a2799b6b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_grade_level</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_x_58872_needit_abacus_u_grade_level</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-09 21:57:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

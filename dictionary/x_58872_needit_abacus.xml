@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="ABACUS" max_length="40" name="x_58872_needit_abacus" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Return Date" mandatory="true" max_length="40" name="u_date_returned" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Device Needed" max_length="40" name="u_device_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Apple iPad" sequence="0" value="ipad"/>
+                <element inactive_on_update="false" label="Google Chromebook" sequence="1" value="google"/>
+                <element inactive_on_update="false" label="Lenovo Chromebook Duet" sequence="2" value="lenovo"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email Address" mandatory="true" max_length="200" name="u_email_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="grade" label="Grade Level" mandatory="true" max_length="40" name="u_grade_level" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Grade School" sequence="0" value="grade"/>
+                <element inactive_on_update="false" label="Middle School" sequence="1" value="middle"/>
+                <element inactive_on_update="false" label="High School" sequence="2" value="high"/>
+            </choice>
+        </element>
+        <element label="New HTML" max_length="65536" name="u_html_1" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Parent Name" mandatory="true" max_length="200" name="u_parent_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Peripherals Needed" max_length="40" name="u_peripheral" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mouse" sequence="0" value="mouse"/>
+                <element inactive_on_update="false" label="Keyboard" sequence="1" value="keyboard"/>
+                <element inactive_on_update="false" label="Mouse &amp; Keyboard" sequence="2" value="mousekey"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" mandatory="true" max_length="20" name="u_phone_number" type="string"/>
+        <element attributes="encode_utf8=false" label="Referred By" max_length="32" name="u_referred_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Shipping Address" max_length="4000" name="u_shipping_addr" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Shipping Address" mandatory="true" max_length="255" name="u_shipping_address" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Student Name" mandatory="true" max_length="200" name="u_student_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Checkout Date" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
+    </element>
+</database>
